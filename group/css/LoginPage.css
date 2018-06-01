@@ -1,0 +1,40 @@
+body{
+    background-image: url("../img/book.jpg");
+    background-size: 100% 720px;
+    text-align: center;
+} 
+h1{
+    color: darkgray;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#login{ 
+    background-size: auto;
+    line-height:20px;
+    font-family:inherit; text-align:center; color: rgb(60, 55, 55);
+    height:10px;
+    padding:65px;
+}
+#container{
+    text-align: center;   
+}
+#form-reminder{
+    text-align: left;  
+}
+#h7{
+    text-align: left;
+}
+#h8{
+    text-align: right;
+}
+.model-img{
+    box-sizing: border-box;
+    align-items: center;
+}
+#footer{
+    clear: both;
+    text-align:center;
+    padding:5px; 
+}

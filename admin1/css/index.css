@@ -1,0 +1,140 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	height: auto;
+	width: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+.makeWhite{
+	background-color: white; 
+
+	
+}
+
+.makeGray{
+	background-color:lightgray; 
+/*border:2px solid red;*/
+	width: 80%;
+	box-sizing: border-box;
+}
+.paddingTop{
+	padding-top: 2%;
+}
+.spaceBorder{
+	padding-bottom: 10%;
+	border-bottom: solid 2px black;
+}
+.spaceBorder2{
+	padding-bottom: 10%;
+	border-bottom: solid 2px black;
+}
+
+.dashList{
+
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	padding: 13px 0;
+	padding-bottom: 20px;
+	margin: 10px;
+}
+
+li:hover{
+	background-color: #FF83FA;
+		border-radius:10px; 
+	color: white;
+}
+
+.giveMargin2{
+	margin:0 auto;
+	/*border:2px solid black;*/
+}
+
+.breadcrumb{
+	background-color: white; 
+	padding: 0;
+	margin: 0;
+}
+
+.breadcrumb-item:hover{
+	background: white;
+	text-decoration: underline;
+	text-decoration-color: purple;
+
+
+} 
+.contentBox{
+	margin: 5% auto;
+	width: 90%;
+
+	box-sizing: border-box;
+}
+
+.breadcrumb-item .active{
+	color: purple;
+}
+
+.row .bigBox{
+	
+	height: 200px;
+	background-color: white;
+	color: black;
+	margin: 15px;
+	margin-bottom: 25px;
+	position: relative;
+
+	
+}
+
+.smallBox{
+	height: 70%;
+	width: 35%;
+	margin-top: -5%;
+	position:absolute;
+	
+}
+
+.row .imageBox{
+			position: relative;
+		background-color: white;
+		height: 440px;
+		margin-top: 20px;
+			width: inherit;
+}
+
+.value{
+	font-size: 4em;
+}
+
+.smallBox:hover {
+	margin-top: -7%;
+}
+
+.supervisorMargin{
+	width: 75%;
+	margin:0 auto;
+
+}
+.supervisorSmallBox{
+	width:98%;
+	margin:0 auto;
+	background-color: ghostwhite;
+	margin-top: -2%;
+
+}
+
+input[type="file"]{
+	
+
+}
